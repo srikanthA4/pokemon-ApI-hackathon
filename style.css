@@ -1,0 +1,87 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, 
+     rgba(2,0,36,1) 0%,
+      rgb(9, 9, 235) 35%, 
+      rgb(11, 193, 230) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin: 0 auto;
+}
+
+h1 {
+    letter-spacing: 3px;
+    transition: all 0.2s;
+    font-size: 50px;
+}
+
+.poke-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.pokemon{
+    
+    padding: 20x;
+    margin: 80px;
+    text-align: center;
+    margin-top: 20px;
+    height: 250px ;
+    width: 200px;
+    box-shadow: 0 5px 15px 0 rgba(202, 35, 191, 0.37);
+    border-radius: 25px;
+    border: 1.5px solid rgba(245, 242, 242, 0.26);
+    transition: all 0.2s;
+    background: rgb(24, 204, 207);
+background: linear-gradient(0deg,
+ rgb(9, 131, 133) 0%,
+  rgb(243, 59, 13) 100%);
+}
+
+.img-container {
+    align-items:center;
+    size: 100%;
+
+}
+
+.pokemon.info{
+    margin-top: 20px;
+
+}
+
+.data{
+color:rgb(5, 5, 136) ;
+}
+
+.pokemon:hover{
+    transform: scale(1.2);
+    background: transparent;
+    
+
+}
+
+.pokemon:hover .data{
+    color:whitesmoke;
+
+}
+
+.img-container:hover{
+    transform: scale(1.9);
+}
+h1:hover {
+    letter-spacing: 5px;
+    color: rgb(228, 135, 13);
+    transform: scale3d(0.5);
+}
